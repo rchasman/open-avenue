@@ -5,3 +5,13 @@
 
 autopublish
 preserve-inputs
+accounts-base
+accounts-ui
+accounts-github
+email
+underscore
+handlebars
+jquery
+d3
+foundation-custom
+foundation-icons
