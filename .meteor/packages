@@ -7,7 +7,6 @@ autopublish
 preserve-inputs
 accounts-base
 accounts-ui
-accounts-github
 email
 underscore
 handlebars
@@ -16,3 +15,4 @@ d3
 foundation-custom
 foundation-icons
 stylus
+accounts-password

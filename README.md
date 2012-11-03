@@ -28,7 +28,7 @@ abandoned, or turn into something totally awesome.
 
 ##First Steps
 
-* Set up basic page with a user system.
+* ~~Set up basic page with a user system.~~
 * Set up graphics library and give users ability to create basic shapes
   associated with their accounts.
 * Allow users to allocate space on the first iteration of the main 'Avenue' to
