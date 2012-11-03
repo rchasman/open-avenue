@@ -3,27 +3,50 @@
 </head>
 
 <body>
-    <br/><br/>
-    <div class="row">
-        {{> header}}
-        {{> page}}
-        {{> footer}}
-    </div>
+    <br/>
+    {{> page}}
 </body>
 
 <template name="header">
-    <div class="five columns offset-by-four">
+    <div class="span5 offset2">
         <h1>Open Avenue</h1>
     </div>
-    <div class="three columns">
-        <br/><br/>
+    <div class="span3 offset2">
+        <br/>
         {{loginButtons}}
     </div>
 </template>
 
 <template name="page">
+    <div class="row">
+        {{> header}}
+    </div>
+    <br/>
+    <div class="row">
+        {{> avenue}}
+    </div>
+    <hr/>
+    <div class="row">
+        {{> footer}}
+    </div>
+</template>
+
+<template name="avenue">
+    <div class="span9 offset2">
+        <div id="avenue">
+            {{#constant}}
+            <svg width="500" height="500">
+                <circle class="callout" cx=-100 cy=-100></circle>
+                <g class="circles"></g>
+                <g class="labels"></g>
+            </svg>
+            {{/constant}}
+        </div>
+    </div>
 </template>
 
 <template name="footer">
-    <p>Made by Roey</p>
+    <div class="span8 offset2">
+        <p>Made by Roey</p>
+    </div>
 </template>
